@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+    <!--前面 加88会有一种透明的感觉-->
+    <solid android:color="#88B22222" />
+    <!--对于内部的内容增加一个内边距-->
+    <padding
+        android:left="2dp"
+        android:right="2dp"
+        android:top="1dp"
+        android:bottom="1dp"
+        />
+    <!--设置大小的宽度和高度,相同则为0-->
+    <size android:width="30dp"
+        android:height="30dp"
+        />
+
+</shape>
